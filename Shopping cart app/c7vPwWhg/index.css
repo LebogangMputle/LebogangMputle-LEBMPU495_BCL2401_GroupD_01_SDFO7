@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color:olivedrab;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+img {
+    width: 150px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+input {
+    color: blue;
+    background-color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    margin: 10px 0;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: rgb(57, 94, 91);;
+    cursor: pointer;
+    padding:20px;
+}
+
+ul{
+   list-style-type: none;
+   padding : 10px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   border-radius: 100px; 
+}
+
+ul li {
+    background-color: #FFFDF8 ;
+    padding: 0;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2 );     
+}
+
+ul li:hover {
+    background-color: rgb(57, 94, 91);
+    cursor: pointer;
+    padding:20px;
+}
+
